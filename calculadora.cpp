@@ -10,9 +10,10 @@ float division(int a, int b);
 int main(){
 
 	int num=0, a=0, b=0;
-	cout<<" Escoge una operacion "
+	cout<<"\n Escoge una operacion \n ";
 	cin>>num;
-
+	cout<<"\n Introduzca los dos numeros: \n ";
+	cin>>a>>b;
 
 	switch(num){
 		case 1: suma(a,b);
@@ -27,3 +28,6 @@ int main(){
 	return 0;
 }
 
+float producto(int a, int b){
+	cout<<"\n Soy el producto = "<<a*b;
+}
