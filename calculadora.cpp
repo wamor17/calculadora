@@ -27,6 +27,11 @@ int main(){
 
 	return 0;
 }
+
+float suma(int a, int b){
+	cout<<"\n Soy la resta = "<<return a+b;
+}
+
 float resta(int a, int b){
 	cout<<"\n Soy la resta = "<<return a-b;
 }
