@@ -24,6 +24,10 @@ int main(){
 		case 4: division(a,b);
 	}
 
+    float division(int a, int b)
+    {
+        cout<<"\n Soy la División = "<< a/b;
+    }
 	return 0;
 }
 
