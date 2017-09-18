@@ -10,7 +10,7 @@ float division(int a, int b);
 int main(){
 
 	int num=0, a=0, b=0;
-	cout<<" Escoge una operacion "
+	cout<<" Escoge una operacion ";
 	cin>>num;
 
 
@@ -25,5 +25,10 @@ int main(){
 	}
 
 	return 0;
+}
+
+// Creación de la función suma
+float suma(int a, int b){
+	cout << "Soy la suma =" << return a+b;
 }
 
